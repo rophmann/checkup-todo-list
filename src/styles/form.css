@@ -1,0 +1,113 @@
+.main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.main__inner {
+   width: 380px;
+   height: 480px;
+   margin: 0 auto;
+   padding: 5px;
+
+   position: relative;
+   overflow: hidden;
+
+   background: #fff;
+   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+/* Стили формы */
+
+#login {
+   left: 50px;
+}
+
+#register {
+   left: 450px;
+}
+
+#btn {
+   top: 0;
+   left: 0;
+   position: absolute;
+
+   width: 130px;
+   height: 100%;
+
+   background: linear-gradient(to right, #ff105f, #ffad06);
+   border-radius: 30px;
+
+   transition: .3s linear;
+}
+
+.form__btns {
+   width: 230px;
+   margin: 35px auto;
+   display: flex;
+
+   position: relative;
+
+   box-shadow: 0 0 20px 9px #ff61241f;
+   border-radius: 30px;
+}
+
+.toggle__btn {
+   padding: 10px 30px;
+
+   position: relative;
+
+   cursor: pointer;
+   background: transparent;
+   color: #404040;
+   border: 0;
+   outline: 0;
+
+   font-weight: 700;
+}
+
+.form {
+   position: absolute;
+   top: 180px;
+
+
+   width: 280px;
+}
+
+.form__group input {
+   width: 100%;
+   padding: 10px 0;
+   margin: 5px 0;
+
+   border: 0;
+   border-bottom: 1px solid #999;
+   outline: none;
+   background: transparent;
+
+}
+
+.form__btn {
+   width: 85%;
+   padding: 10px 30px;
+   margin: 20px;
+
+   background: linear-gradient(to right, #ff105f, #ffad06);
+   border: 0;
+   border-radius: 30px;
+   outline: 0;
+   color: #fff;
+
+   cursor: pointer;
+   transition: opacity .2s linear;
+}
+
+
+.form__btn:hover {
+   opacity: .9;
+   transition: opacity .2s linear;
+}
+
+.error {
+   color: red;
+   font-size: 12px;
+   margin-left: 10px;
+}

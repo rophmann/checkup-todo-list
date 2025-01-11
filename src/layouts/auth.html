@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <title>Todo</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__inner">
+
+        <div class="form__btns">
+          <div id="btn"></div>
+          <button class="toggle__btn logBtn">Войти</button>
+          <button class="toggle__btn regBtn">Регистрация</button>
+        </div>
+
+        <div class="form" id="login">
+          <div class="form__group">
+            <input type="text" class="form__inp" placeholder="Логин" required />
+          </div>
+          <div class="form__group">
+            <input
+              type="password"
+              class="form__inp"
+              placeholder="Пароль"
+              required
+            />
+            <span class="loginPasswordError error"></span>
+          </div>
+          <button class="form__btn">Войти</button>
+        </div>
+        <!--Login-->
+
+        <div class="form" id="register">
+          <div class="form__group">
+            <input
+              type="email"
+              class="form__inp"
+              placeholder="Email"
+              required
+            />
+            <span class="registerEmailError error"></span>
+          </div>
+          <div class="form__group">
+            <input
+              type="password"
+              class="form__inp"
+              placeholder="Пароль"
+              required
+            />
+            <span class="registerPasswordError error"></span>
+          </div>
+          <div class="form__group">
+            <input
+              type="password"
+              class="form__inp"
+              placeholder="Повторите пароль"
+              required
+            />
+            <span class="registerPasswordConfirmError error"></span>
+          </div>
+          <button class="form__btn">Войти</button>
+        </div>
+      </div>
+
+    </main>
+    <script src="../scripts/app.js"></script>
+  </body>
+</html>
