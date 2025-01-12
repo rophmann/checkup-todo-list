@@ -58,7 +58,7 @@
 
    cursor: pointer;
    background: transparent;
-   color: #404040;
+   color: #404040a8;
    border: 0;
    outline: 0;
 
@@ -110,4 +110,13 @@
    color: red;
    font-size: 12px;
    margin-left: 10px;
+}
+
+
+/* Media queries */
+
+@media (max-width: 390px) {
+   .main__inner {
+      width: 350px;
+   }
 }
